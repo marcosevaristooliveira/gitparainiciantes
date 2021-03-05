@@ -5,7 +5,7 @@ app.get('/', (req, res)=>{
     res.status(200).send({message: 'Olá mmundo esse é o meu novo repositório clonado.'})
 })
 
-app.get('Ola/', (req, res)=>{
+app.get('RotaOla/', (req, res)=>{
     res.status(200).send({message: 'Olá'})
 })
 
